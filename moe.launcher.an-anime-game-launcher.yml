@@ -3,7 +3,7 @@ command: moe.launcher.an-anime-game-launcher
 rename-desktop-file: anime-game-launcher.desktop
 
 runtime: org.gnome.Platform
-runtime-version: '49'
+runtime-version: '50'
 sdk: org.gnome.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
@@ -117,7 +117,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/an-anime-team/an-anime-game-launcher
-        tag: 3.19.2
+        tag: 3.19.3
       - type: file
         path: moe.launcher.an-anime-game-launcher.sh
       - cargo-sources.json
