@@ -107,7 +107,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/an-anime-team/an-anime-game-launcher
-        tag: 3.19.7
+        tag: 3.19.8
       - type: file
         path: moe.launcher.an-anime-game-launcher.sh
       - cargo-sources.json
